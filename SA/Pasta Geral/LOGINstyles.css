@@ -1,0 +1,62 @@
+textarea:focus, input:focus{
+    outline: none;
+
+}
+
+a:hover{
+    color: #085588;
+}
+
+/*container login*/
+
+#login-container{
+    background-color: rgb(229, 201, 216);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px 50px;
+    margin-top: 10vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.button_div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login-button-login{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.login-button:active{
+    box-shadow: -2px -2px black;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+
+}
+
+input[type="submit"]{
+    background-color: #085588;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    cursor: pointer;
+
+}
